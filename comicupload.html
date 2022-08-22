@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://gramener.com/comicgen/dist/comicgen.min.css">
+    <script async src="https://gramener.com/comicgen/dist/comicgen.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <!-- Color scale -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+    <title>Comic</title>
+    
+</head>
+<body>
+    <h1 class="white">American Hearts</h1>
+
+    <div class="comic-row-1">
+        <div class="comic-panel">
+          <div class="comic-caption-top">Hi! I'm Dee.</div>
+          <g class="comicgen" name="dee" angle="straight" emotion="smilehappy" pose="handsfolded" x="-317" y="-119" scale="2.2" width="300" height="400"></g>
+        </div>
+        <div class="comic-panel">
+            <div class="comic-caption-top">I'm the scientist behind this comic.</div>
+            <g class="comicgen" name="dee" angle="straight" emotion="smile" pose="holdingbook" x="-150" y="-5" scale="1.5" width="300" height="400"></g>
+          </div>
+        <div class="comic-panel">
+          <div class="comic-caption-top">Meet Kevin, my assistant.</div>
+          <svg width="300" height="400">
+            <g class="comicgen" name="dee" angle="straight" emotion="smilehappy" pose="pointingright" x="160" y="35" scale="1" width="300" height="400" mirror="1"></g>
+            <g class="comicgen" name="dey" angle="straight" emotion="smile" pose="holdingcoffee" x="-100" y="45" scale="1" width="300" height="400"></g>
+          </svg>
+        </div>
+        <div class="comic-panel">
+            <div class="comic-caption-top">Kevin and I will be your comic guides</div>
+            <g class="comicgen" name="dee" angle="straight" emotion="smilehappy" pose="holdinglaptop" x="-150" y="10" scale="1.5" width="300" height="400" mirror="1"></g>
+          </div>
+    </div>
+
+    <div class="comic-row-2">
+        <div class="comic-panel">
+            <svg width="600" height="400">
+                <text x="450", y="30">Did you know?</text>
+                <text x="450" y="120">One person dies </text>
+                <text x="450" y="140">every 34 seconds </text>
+                <text x="450" y="160">in the United States</text> 
+                <text x="450" y="180">from Cardiovascular</text>
+                <text x="450" y="200">Disease!</text>
+                <text x="450" y="220">(type of heart disease)</text>
+                <text x="450" y="375">*From cdc.gov</text>
+                <g class="comicgen" name="dee" angle="straight" emotion="shocked" pose="pointing45degree" x="40" y="35" scale="1" width="300" height="400" ></g>
+            </svg>
+            <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/grave.png" width="440" height="222" alt="Grave"/>
+        </div>
+    </div>
+    
+    <div class="comic-row">
+      <div class="comic-panel">
+        <div class="comic-caption-top">We can predict your risk of heart disease.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="holdinglaptop"  x="-40" y="0" scale ="1" mirror="mirror" width="350" height="300"></g>
+      </div> 
+      <div class="comic-panel">
+        <div class="comic-caption-top">Just select and fill in the options when Dee or I tell you!</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="smile" pose="holdinglaptop"  x="-40" y="0" scale ="1" mirror="mirror" width="450" height="300"></g>
+      </div> 
+      <div class="comic-panel">
+        <div class="comic-caption-top">At the end click predict and see your results.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="excited" pose="thumbsup"  x="-40" y="0" scale ="1" mirror="mirror" width="350" height="300"></g>
+      </div> 
+    </div>
+
+    <div class="comic-row-3" id ="Sex">
+      <div class = "comic-panel">
+        <div class="comic-caption-bottom">A lot of things affect risk of Heart disease right?</div>
+        <g class="comicgen" name="dey" angle="side" emotion="worried" pose="pointingright" x="50" y="0" scale="0.8" width="400" height="300"></g>
+      </div>
+      <div class = "comic-panel">
+        <div class="comic-caption-bottom">Yes! For example gender affects the risks of developing heart disease.</div>
+        <g class="comicgen" name="dee" angle="side" emotion="neutral" pose="pointingright" x="120" y="10" scale="0.8" width="150" height="300" mirror="mirror"></g>
+        <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/gender.png" width="440" height="222" alt="Gender"/>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Wait so what is the risk accoring to CDC data?</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="curious" x="0" y="60" scale ="1" pose="handsinpocket" width="400" height="300"></g>
+      </div>
+    </div>
+    <div class="comic-row">
+
+      <div class="comic-panel">
+        <div class="comic-caption-top">Well the balls below show you! Hover away!</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" x="-40" y="0" scale ="1" pose="handsinpocket" width="350" height="300"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Can I go next?</div>
+        <g class="comicgen" name="dey" angle="sitting" emotion="shocked" pose="sittingatdeskhandsspread" width="300" height="300"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Yes Kevin.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="happy" pose="holdingcoffee"  x="-40" y="0" scale ="1" mirror="mirror" width="300" height="300"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Don't forget to tell us your gender!</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="excited" pose="thumbsup"  x="-40" y="0" scale ="1" mirror="mirror" width="300" height="300"></g>
+      </div>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <select name="sexchoice" id = "sexSelected">
+      <option >Select Gender</option>
+      <option value = "0">Female</option>
+      <option value = "0.721149423">Male</option>
+    </select>
+    <div id="Sex-D3graph">
+    </div>
+    
+
+
+    <div class="comic-row-4">
+      <div class="comic-panel">
+        <div class="comic-caption-top">That makes me feel awful. Got any fun facts?</div>
+        <g class="comicgen" name="dey" angle="sitting" emotion="cryingloudly" pose="sittingonthefloorshrug" mirror="mirror" width="350" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Yes, but most research disagrees with these findings.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="worried" pose="holdingcoffee" mirror="mirror"  width="450" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Your findings on heavy drinking? Most of it does disagree.</div>
+        <g class="comicgen" name="dey" angle="side" emotion="curious" pose="readingpaper" width="500" height="350"></g>      </div>
+    </div>
+
+    <div class="comic-row-5" id ="Drinking">
+      <div class="comic-panel">
+        <div class="comic-caption-top">I'm not a heavy drinker, you?</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="curious" x="0" y="60" scale ="0.8" pose="handsinpocket" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">What's a heavy drinker?</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="curious" x="0" y="60" scale ="0.8" pose="handsinpocket" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">It's different for males and females.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="neutral" x="0" y="60" scale ="0.8" pose="handsonhip" mirror="mirror" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Please explain.</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="confused" x="0" y="60" scale ="0.8" pose="thinking" width="300" height="350"></g>
+      </div>
+    </div>
+
+    <div class="comic-row">
+      <div class="comic-panel">
+        <svg width="400" height="350">
+          <text x="20", y="100">For femlaes a heavy drinker is an </text>
+          <text x="20", y="120">adult women having more than 7 drinks per week.</text>
+          <text x="20" y="180">For males a heavy drinker is an</text>
+          <text x="20", y="200">adult men having more than 14 drinks per week.</text>        
+        </svg>
+        <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/drinks.png" width="440" height="222" alt="Drink"/>
+      </div>
+    </div>
+
+    <div class="comic-row">
+      <div class="comic-panel">
+        <div class="comic-caption-top">Okay got it, then I am a heavy drinker.</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="confused" x="0" y="60" scale ="0.8" pose="shrug" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Have a look at odds of heart disease for heavy drinking</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" scale ="0.8" x="20" y="60" pose="holdingbook" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">It's interactive!</div>
+        <g class="comicgen" name="dey" angle="side" emotion="curious" x="20" y="60" scale ="0.8" pose="handsinpocket" width="300" height="350"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">Don't forget to select your drinking status!</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="smile" pose="holdingcoffee"  x="-40" y="0" scale ="1" mirror="mirror" width="300" height="400"></g>
+      </div>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <select name="drinkchoice" id = "drinkSelected">
+      <option >Heavy Drinker?</option>
+      <option value = "-0.274958325">Yes</option>
+      <option value = "0">No</option>
+    </select>
+    <div id="Drink-D3graph"></div>
+    <div class = "comic-row">
+      <div class="comic-panel">
+        <div class="comic-caption-top">Not the best news to hear.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="afraid" pose="handsheldback" width="250" height="300"></g>
+      </div>
+      <div class = "comic-panel">
+        <div class="comic-caption-top">How come it's like this?</div>
+        <g class="comicgen" name="dey" angle="straight" emotion="curious" pose="holdingcoffee" width="250" height="300"></g>
+      </div>
+      <div class="comic-panel">
+        <div class="comic-caption-top">The pie charts below will explain.</div>
+        <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" pose="handsfolded" width="250" height="300"></g>
+      </div>
+    </div>
+<p></p>
+<p></p>
+<p></p>
+<button onclick="update(data1)">Heart Disease</button>
+<button onclick="update(data2)">No Heart Disease</button>
+<div id="pie-drink"></div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">It's the data.</div>
+    <svg width="700" height="400">   
+      <g class="comicgen" name="dee" angle="straight" emotion="annoyed" pose="handsfolded" x="150" y="35" scale="0.5"  mirror="1"></g>
+      <g class="comicgen" name="dey" angle="straight" emotion="smile" pose="holdingcoffee" x="0" y="45" scale="0.5"></g>
+      <text x="370", y="100">There are more people who are heavy </text>
+      <text x="370", y="120">drinkers that do not have heart disease than</text>
+      <text x="370", y="140"> there is heavy drinkers that</text>
+      <text x="370", y="160"> do have heart disease in the data set.</text>
+    </svg>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">What about smoking? Thats still bad for you right?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="confused" pose="thinking" x="50" y="0" width="400" height="500" mirror="mirror" ></g>
+  </div>
+</div>
+
+<div class="comic-row">
+  <div class="comic-panel">
+    <svg width="700" height="500">
+      <g class="comicgen" name="dee" angle="straight" emotion="worried" pose="holdingbook" x="0" y="0" width="400" height="500"></g>
+      <text x="350", y="100">Smoking isn't great, if you have smoked 100 cigarettes</text>
+      <text x="350", y="130"> (thats 5 packs) or more in your lifetime that classifies</text>
+      <text x="350", y="160">you as a smoker if it is less then you are</text>
+      <text x="350", y="190"> classified as a non smoker.</text>
+    </svg>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/smoking.png" width="440" height="222" alt="Smoke"/>
+  </div>
+</div>
+<div class="comic-row-6" id ="Smoke">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Do you have a comparison Dee?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="confused" pose="thinking" x="0" y="0" width="300" height="350" mirror="mirror"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Yes! Hover over the circles below.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" pose="holdingcoffee"  x="0" y="0" width="300" height="350" mirror="mirror"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">And don't you forget to tell us your smoking status!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="laugh" pose="holdingcoffee"  x="0" y="0" width="400" height="350" mirror="mirror"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="smokechoice" id = "smokeSelected">
+  <option >Smoker?</option>
+  <option value = "0.299206285">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="Smoke-D3graph"></div>
+
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Makes you think, no?</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="lookingright" pose="pointingup" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Very much so, I should try cut back</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="afraid" pose="angry" mirror="mirror" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Or you could quit?</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="cunning" pose="shrug" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Be realistic Dee</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="cunning" pose="handsonhip" x="0" y="0" width="300" height="400"></g>
+  </div>
+</div>
+
+
+<div class="comic-row-7" id ="Stroke">
+  <div class="comic-panel">
+    <div class="comic-caption-top">What about Strokes?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="cunning" pose="handsonhip" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">First let me tell you what a stroke is.</div>
+    <g class="comicgen" class="comicgen" name="dee" angle="straight" emotion="smile" pose="holdingbook"  x="0" y="0" width="300" height="400"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <svg width="700" height="400">
+      <g class="comicgen" name="dee" angle="straight" emotion="worried" pose="holdingbook" x="0" y="0" width="300" height="400"></g>
+      <text x="400", y="100">A stroke is a serious medical condition,</text>
+      <text x="400", y="130">it occurs where the blood supply </text>
+      <text x="400", y="160">to a part of your brain is cut-off. </text>
+    </svg>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/stroke.png" width="440" height="222" alt="Stroke"/>
+  </div>
+</div>
+
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Have you had one Dee?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="curious" pose="holdingmobile" mirror="mirror" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">No, not that I know of, my doctors never mentioned a stroke.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="hmm" pose="handsfolded" mirror="mirror" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">The intercative comparison for stroke is below.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" pose="holdinglaptop" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Remember to select whether or not you have had a stroke.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="holdinglaptop"  x="0" y="0" width="300" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="strokechoice" id = "strokeSelected">
+  <option >Stroke?</option>
+  <option value = "0.972697210">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="Stroke-D3graph"></div>
+
+<div class="comic-row-8" id ="Diabetes">
+  <div class="comic-panel">
+    <div class="comic-caption-top">I adore all things sweet!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="happy" pose="yuhoo" scale="0.8" x="40" y="60" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">That's not healthy Dee, sweets should be eaten in moderation</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="rollingeyes" pose="holdingcoffee" scale="0.8" x="40" y="60" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">I know I should, my mum has diabetes.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="sad" pose="handsinpocket" scale="0.8" x="40" y="60" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">That's not good.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="sad" pose="holdingcoffee" scale="0.8" x="40" y="60" width="300" height="400"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <svg width="700" height="400">
+      <g class="comicgen" name="dee" angle="straight" emotion="worried" pose="holdingcoffee" x="0" y="0" width="300" height="400"></g>
+      <text x="400", y="100">Diabetes is a common condition in</text>
+      <text x="400", y="130"> which the amount of glucose (sugar)</text>
+      <text x="400", y="160"> in the blood is too high because the pancreas, </text>
+      <text x="400", y="190"> which is a gland behind the stomach,</text>
+      <text x="400", y="220">cannot make enough effective insulin.</text>
+    </svg>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/sugar.png" width="440" height="222" alt="Diabetes"/>
+  </div>
+</div>
+
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Find out the difference of odds of heart disease. Interactive circles below.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="lookingdown" pose="handsinpocket" scale="0.8" x="0" y="10" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Don't forget to select your disbetic status!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="pointingup" x="0" y="10" width="300" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="sugarchoice" id = "sugarSelected">
+  <option >Diabetic?</option>
+  <option value = "0.440854402">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="Sugar-D3graph"></div>
+
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Managing your sugar intake would be a good idea then?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="lookingdown" pose="handsinpocket" mirror="mirror" scale="0.75" x="0" y="0" width="450" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Yes it would, I'll work on it.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="annoyed" pose="holdingcoffee" mirror="mirror" x="0" y="10" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Did you know I have asthma? It's not fun.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="shocked" pose="shrug" mirror="mirror" x="0" y="10" width="400" height="400"></g>
+  </div>
+</div>
+<div class="comic-row-9" id="Asthma">
+  <div class="comic-panel">
+    <svg width="700" height="400">
+      <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="holdingbook" x="0" y="0" width="300" height="400"></g>
+      <text x="400", y="100">Asthma is a common condition </text>
+      <text x="400", y="130">it is a chronic disease in</text>
+      <text x="400", y="160"> which the bronchial airways in </text>
+      <text x="400", y="190"> the lungs become narrowed and </text>
+      <text x="400", y="220">swollen, making it difficult to breathe.</text>
+    </svg>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/asthma.png" width="440" height="222" alt="Asthma"/>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Does asthma affect odds of heart disease?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="lookingright" pose="handsfolded" x="0" y="0" width="400" height="300"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">It does. Look below.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="annoyed" pose="holdingcoffee" mirror="mirror" x="0" y="10" width="200" height="300"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Do you have asthma? Remember to tell us!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="pointingup" x="0" y="10" width="400" height="300"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="asthmachoice" id = "asthmaSelected">
+  <option >Asthma?</option>
+  <option value = "0.295714911">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="Asthma-D3graph"></div>
+
+
+<div class="comic-row-10" id="KindeyDisease">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Kidney disease also has an affect on heart disease.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="holdinglaptop" x="0" y="0" width="350" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">The circles below tell you the odds!</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="neutral" pose="handsinpocket" x="0" y="0" width="350" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">And remember to select your status!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="smile" pose="handsonhip" x="0" y="0" width="350" height="400"></g>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/kidney.png" width="440" height="222" alt="Kindey_Disease"/>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="kdchoice" id = "kdSelected">
+  <option >Kidney Disease?</option>
+  <option value = "0.480452360">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="KD-D3graph"></div>
+
+<div class="comic-row-11" id="DiffWalking">
+  <div class="comic-panel">
+    <div class="comic-caption-top">I spend a lot of time at my desk.</div>
+      <g class="comicgen" name="dee" angle="sitting" emotion="smile" pose="sittingatdesk" x="0" y="0" width="500" height="600"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">So I love a good walk when I get the time. What about you, Kevin?</div>
+    <g class="comicgen" name="dee" angle="side" emotion="smile" pose="explaining" x="0" y="0" width="500" height="600"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Nope, I have a knee problem, it's difficult to walk for long.</div>
+    <g class="comicgen" name="dey" angle="sitting" emotion="sad" pose="sittingonbeanbagholdingmobile" x="61" y="-6" width="500" height="600"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Oh I'm so sorry, difficulty walking also affects heart disease.</div>
+      <g class="comicgen" name="dee" angle="side" emotion="sad" pose="handsinpocket" x="0" y="0" width="500" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Of course it does, what's the odds?</div>
+      <g class="comicgen" name="dey" angle="side" emotion="sad" pose="holdingcoffee" x="0" y="0" width="500" height="400"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Remember to select your status!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="smile" pose="handsonhip" x="0" y="0" width="350" height="400"></g>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/wheelchair.png" width="440" height="222" alt="Wheelchair"/>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="diffwalkchoice" id = "dwSelected">
+  <option >Difficulty Walking?</option>
+  <option value = "0.308728424">Yes</option>
+  <option value = "0">No</option>
+</select>
+<div id="DW-D3graph"></div>
+
+<div class="comic-row-12" id="SleepTime">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Sleep is very important.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="tired" pose="holdingcoffee" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">You look a bit tired there.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="hmm" pose="handsinpocket" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">I didn't get mcuh sleep last night.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="tired" pose="shrug" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Sleep affects heart disease, right Dee?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="hmm" pose="holdingcoffee" x="0" y="0" width="300" height="400"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Yes...</div>
+    <g class="comicgen" name="dee" angle="sitting" emotion="dozing" pose="sittingonbeanbagholdinglaptop" scale="0.8" x="0" y="0" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">She's asleep, the sqaures below tell you about sleep and heart disease.</div>
+    <g class="comicgen" name="dey" angle="sitting" emotion="hmm" pose="sittingonthefloorexplaining" scale="0.8" x="0" y="20" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Don't forget to input the amount of hours you sleep!</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="laugh" pose="handsinpocket" scale="0.8" x="0" y="20" width="400" height="400"></g>
+  </div>
+</div>
+<p>Please enter a number eg 4, 5 or 7.</p>
+<input type="text" id="sleeptime" value="Numbers of hours you sleep">
+<div id="Sleep-D3graph"></div>
+
+<div class="comic-row-13", id="Age">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Age affects the risk of getting heart disease too.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="hmm" pose="explaining" scale="0.8" x="0" y="0" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">You can compare the odds of getting heart disease between the different age groups.</div>
+    <g class="comicgen" name="dey" angle="side" emotion="curious" pose="holdingcoffee" scale="0.8" x="0" y="35" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">It's pretty easy, just select the age groups you want to comapre. </div>
+    <g class="comicgen" name="dey" angle="straight" emotion="happy" pose="holdinglaptop" scale="0.8" x="50" y="20" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">And click the compare button for the results.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="excited" pose="handsheldback" scale="0.8" x="0" y="0" width="400" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="ageA" id = "ageA">
+  <option >Select Age Category</option>
+  <option value = "0">18-24</option>
+  <option value = "-0.007290779">25-29</option>
+  <option value = "0.481704174">30-34</option>
+  <option value = "0.626968653">35-39</option>
+  <option value = "0.992107189">40-44</option>
+  <option value = "1.259972477">45-49</option>
+  <option value = "1.706762132">50-54</option>
+  <option value = "1.85249088">55-59</option>
+  <option value = "2.078289106">60-64</option>
+  <option value = "2.480639436">65-69</option>
+  <option value = "2.617339137">70-74</option>
+  <option value = "2.869518794">75-79</option>
+  <option value = "3.084555712">80 or older</option>
+</select> 
+<select name="ageB" id = "ageB">
+  <option >Select Age Category</option>
+  <option value = "0">18-24</option>
+  <option value = "-0.007290779">25-29</option>
+  <option value = "0.481704174">30-34</option>
+  <option value = "0.626968653">35-39</option>
+  <option value = "0.992107189">40-44</option>
+  <option value = "1.259972477">45-49</option>
+  <option value = "1.706762132">50-54</option>
+  <option value = "1.85249088">55-59</option>
+  <option value = "2.078289106">60-64</option>
+  <option value = "2.480639436">65-69</option>
+  <option value = "2.617339137">70-74</option>
+  <option value = "2.869518794">75-79</option>
+  <option value = "3.084555712">80 or older</option>
+</select>
+<button onclick="agecompare()">Compare Ages</button>
+<p id="ageStatement"></p>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Don't forget to select your age category!We won't be able to calculate your risk without it.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="smile" pose="holdingcoffee" scale="0.8" x="0" y="0" width="700" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="userAge">
+  <select name="age" id = "age">
+    <option >Please select your age.</option>
+    <option value = "0">18-24</option>
+    <option value = "-0.007290779">25-29</option>
+    <option value = "0.481704174">30-34</option>
+    <option value = "0.626968653">35-39</option>
+    <option value = "0.992107189">40-44</option>
+    <option value = "1.259972477">45-49</option>
+    <option value = "1.706762132">50-54</option>
+    <option value = "1.85249088">55-59</option>
+    <option value = "2.078289106">60-64</option>
+    <option value = "2.480639436">65-69</option>
+    <option value = "2.617339137">70-74</option>
+    <option value = "2.869518794">75-79</option>
+    <option value = "3.084555712">80 or older</option>
+  </select> 
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div class="comic-row-14", id="Race">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Your race determines your risk of heart disease as well.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="smile" pose="explaining" scale="0.8" x="0" y="35" width="400" height="400"></g>
+    <img src="https://raw.githubusercontent.com/datacomic-ra92/AmericanHeartsComic/main/race.png" width="440" height="222" alt="Race"/>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">The comparison works the same as the age comparison above.</div>
+    <g class="comicgen" name="dey" angle="side" emotion="smile" pose="holdingcoffee" scale="0.8" x="0" y="35" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">What race are you? Remember to tell us!</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="pointingup" x="0" y="10" width="400" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="raceA" id = "raceA">
+  <option >Select Race</option>
+  <option value = "0">American Indian/Alaskan Native</option>
+  <option value = "-0.639877593">Asian</option>
+  <option value = "-0.108613721">Black</option>
+  <option value = "-0.106734726">Hispanic</option>
+  <option value = "0.147618006">White</option>
+  <option value = "0.0.062448763">Other Race</option>
+</select>
+<select name="raceB" id = "raceB">
+  <option >Select Race</option>
+  <option value = "0">American Indian/Alaskan Native</option>
+  <option value = "-0.639877593">Asian</option>
+  <option value = "-0.108613721">Black</option>
+  <option value = "-0.106734726">Hispanic</option>
+  <option value = "0.147618006">White</option>
+  <option value = "0.0.062448763">Other Race</option>
+</select>
+<button onclick="racecompare()">Compare Races</button>
+<p id="raceStatement"></p>
+<p></p>
+<p></p>
+<p></p>
+<div id="userRace">
+  <select name="race" id = "race">
+    <option >Please select your race.</option>
+    <option value = "0">American Indian/Alaskan Native</option>
+    <option value = "-0.639877593">Asian</option>
+    <option value = "-0.108613721">Black</option>
+    <option value = "-0.106734726">Hispanic</option>
+    <option value = "0.147618006">White</option>
+    <option value = "0.0.062448763">Other Race</option>
+  </select>
+</div>
+<p></p>
+<p></p>
+<p></p>
+
+
+<div class="comic-row-15", id="GeneralHealth">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Your general health is important and affects your risk of heart disease.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="smile" pose="holdingcoffee" x="0" y="20" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">I think my health is pretty good, I'm in good shape and I eat healthy.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="laugh" pose="handsonhip" x="0" y="20" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">No diseases, or vitamin deficiencies? </div>
+    <g class="comicgen" name="dee" angle="side" emotion="hmm" pose="holdingcoffee" x="0" y="20" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Nope</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="smile" pose="handsonhip" x="0" y="0" width="300" height="400"></g>
+  </div>
+</div>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Nothing like high cholesterol? </div>
+    <g class="comicgen" name="dee" angle="side" emotion="hmm" pose="handsfolded" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Nothing.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="happy" mirror="mirror" pose="handsonhip" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">You are healthy.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="hmm" pose="thinking" x="0" y="0" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Yep! General Health comparison is below, remember to tell us yours!</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="laugh" pose="handsonhip" x="0" y="20" width="300" height="400"></g>
+  </div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<select name="healthA" id = "healthA">
+  <option >Select Health Status</option>
+  <option value = "0">Excellent</option>
+  <option value = "0.565790296">Very good</option>
+  <option value = "1.104516567">Good</option>
+  <option value = "1.624647801">Fair</option>
+  <option value = "2.058191455">Poor</option>
+</select>
+<select name="healthB" id = "healthB">
+  <option >Select Health Status</option>
+  <option value = "0">Excellent</option>
+  <option value = "0.565790296">Very good</option>
+  <option value = "1.104516567">Good</option>
+  <option value = "1.624647801">Fair</option>
+  <option value = "2.058191455">Poor</option>
+</select>
+<button onclick="healthcompare()">Compare General Healths</button>
+<p id="healthStatement"></p>
+<p></p>
+<p></p>
+<p></p>
+<div id="userhealth">
+  <select name="health" id = "health">
+    <option >Your General Health </option>
+    <option value = "0">Excellent</option>
+    <option value = "0.565790296">Very good</option>
+    <option value = "1.104516567">Good</option>
+    <option value = "1.624647801">Fair</option>
+    <option value = "2.058191455">Poor</option>
+  </select>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div class="comic-row-16", id="MentalHealth">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Your mental health is also important.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="hmm" pose="explaining" scale="0.8" x="0" y="0" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Yeah, how many bad days did you have this month?</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="smile" pose="handsonhip" x="0" y="20" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Around 4, I do try to do things to stay healthy mentally.</div>
+    <g class="comicgen" name="dee" angle="side" emotion="smile" pose="holdingcoffee" scale="0.8" x="0" y="30" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">You should tell us how many bad days you had in the last 30 days.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="lookingdown" pose="handsinpocket" mirror="mirror" scale="0.75" x="0" y="0" width="450" height="400"></g>
+  </div>
+</div>
+<p>Please enter a number eg 3, 14, or 26.</p>
+<input type="text" id="mental" value="Bad mental health days.">
+<div id="Mental-D3graph"></div>
+
+<div class="comic-row-17", id="Prediction">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Everything filled in? We can predict your probability of heart disease now.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="smile" pose="holdinglaptop" x="0" y="10" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">If you don't like what you see go over the comic and see what your could change about yourself.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="worried" pose="handsonhip" scale="0.85" x="0" y="0" width="400" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">It's good to take steps to prevent heart disease.</div>
+    <g class="comicgen" name="dey" angle="straight" emotion="neutral" pose="pointingup" scale="0.85" x="0" y="-10" width="400" height="400"></g>
+  </div>
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+<button onclick="prediction()">Predict</button>
+<p id="pred"></p>
+<p></p>
+<p></p>
+<p></p>
+<div class="comic-row">
+  <div class="comic-panel">
+    <div class="comic-caption-top">Click the Predict button above to see your risk of heart disease.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="neutral" pose="pointingup" x="0" y="10" width="300" height="400"></g>
+  </div>
+  <div class="comic-panel">
+    <div class="comic-caption-top">Disclaimer: This comic and prediction model was created by a student for a master’s project and is not a substitute for a doctor’s evaluation.</div>
+    <g class="comicgen" name="dee" angle="straight" emotion="lookingup" pose="handsinpocket" x="0" y="-50" width="700" height="400"></g>
+  </div>
+</div>
+
+<script>
+function reacttoDropdownChange(event){
+    item = event.target.value;
+    console.log(item);
+}
+// Sex Variable 
+
+var sexselectiondropdon = document.getElementById("sexSelected");
+sexselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgsex = d3.select("#Sex-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgsex.append("circle")
+  .attr("id", "female")
+  .attr("cx", 200)
+  .attr("cy", 200)
+  .attr("r", 100)
+  .attr("fill", "#ff00ff")
+svgsex.append("text")
+  .attr("x",300)
+  .attr("y", 100)
+  .attr("dy", ".35em")
+  .text("Female")
+
+
+svgsex.append("circle")
+  .attr("id", "male")
+  .attr("cx", 700)
+  .attr("cy", 200)
+  .attr("r", 145)
+  .attr("fill", "#0099ff")
+svgsex.append("text")
+  .attr("x",520)
+  .attr("y", 100)
+  .attr("dy", ".35em")
+  .text("Male")
+
+var Tooltip_sex = d3.select("#Sex-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#female")
+    .on("mouseover",event=>{
+        Tooltip_sex
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_sex
+            .html("If you are female you are better off!<br/> Much less likey to have heart disease when compared to males.<br/> Check out the blue circle to see how much better the odds are for you.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_sex
+            .style("opacity", 0)
+    })
+
+d3.select("#male")
+    .on("mouseover",event=>{
+        Tooltip_sex
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_sex
+            .html("Males are twice as likely to have heart disease when compared to females. <br/> Considering all other factors are the same. <br/> Such as age, general health, diabetes status etc.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_sex
+            .style("opacity", 0)
+    })
+
+
+// Alcohol Variable 
+
+var drinkselectiondropdon = document.getElementById("drinkSelected");
+drinkselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgdrink = d3.select("#Drink-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgdrink.append("circle")
+    .attr("id", "heavydrinker")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#00ff99")
+svgdrink.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Heavy Drinker")
+
+
+svgdrink.append("circle")
+    .attr("id", "non-heavy")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 112)
+    .attr("fill", "#66ffff")
+svgdrink.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Non Heavy Drinkers")
+
+var Tooltip_drink = d3.select("#Drink-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#heavydrinker")
+    .on("mouseover",event=>{
+        Tooltip_drink
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_drink
+            .html("Heavy drinkers are less likey to get heart <br> disease compared to non heavy drinkers.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_drink
+            .style("opacity", 0)
+    })
+
+d3.select("#non-heavy")
+    .on("mouseover",event=>{
+    Tooltip_drink
+        .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_drink
+            .html("Non heavy drinkers are 1.31 times more likely to <br> get heart disease compared to heavy drinkers.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_drink
+            .style("opacity", 0)
+    })
+
+// pie chart for alcohol
+var data1 = {"Heavy drinkers": 4, "No heavy drinkers": 96} //heart disease
+var data2 = {"Heavy drinkers": 7, "No heavy drinkers": 93} //no heart disease
+
+// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+var radius = Math.min(350, 400) / 2 - 50
+
+// append the svg object to the div called 'my_dataviz'
+var svgpie1 = d3.select("#pie-drink")
+    .append("svg")
+    .attr("width", 500)
+    .attr("height", 450)
+    .append("g")
+    .attr("transform", "translate(" + 350 / 2 + "," + 400 / 2 + ")");
+
+var color = d3.scaleOrdinal()
+    .domain(["Heavy drinkers", "No heavy drinkers"])
+    .range(d3.schemeDark2);
+
+// function for labelling
+function label(data){
+    if(data==data1){
+        svgpie1.append("text")
+            .attr("id", "perc")
+            .attr("x",15)
+            .attr("y", -140)
+            .attr("dy", ".35em")
+            .text("Heavy Drinkers 4%")
+            .style("opacity", 1);
+
+        svgpie1.append("text")
+            .attr("id", "perc")
+            .attr("x", 100)
+            .attr("y", 100)
+            .attr("dy", ".35em")
+            .text("Non Heavy Drinkers 96%")
+            .style("opacity", 1);
+    }
+    if(data==data2){
+        svgpie1.append("text")
+            .attr("id", "perc")
+            .attr("x",15)
+            .attr("y", -140)
+            .attr("dy", ".35em")
+            .text("Heavy Drinkers 7%")
+            .style("opacity", 1);
+
+        svgpie1.append("text")
+            .attr("id", "perc")
+            .attr("x", 100)
+            .attr("y", 100)
+            .attr("dy", ".35em")
+            .text("Non Heavy Drinkers 93%")
+            .style("opacity", 1);
+    }
+}
+
+// A function that create / update the plot for a given variable:
+function update(data) {
+
+    // Compute the position of each group on the pie:
+    var pie = d3.pie()
+        .value(function(d) {return d.value; })
+        .sort(function(a, b) { console.log(a) ; return d3.ascending(a.key, b.key);} ) // This make sure that group order remains the same in the pie chart
+    var data_ready = pie(d3.entries(data))
+    
+    // map to data
+    var u = svgpie1.selectAll("path")
+        .data(data_ready)
+    
+    d3.selectAll("#perc")
+        .remove();
+    
+    label(data)
+    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+    u
+        .enter()
+        .append('path')
+        .merge(u)
+        .transition()
+        .duration(1000)
+        .attr('d', d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius)
+        )
+        .attr('fill', function(d){ return(color(d.data.key)) })
+        .attr("stroke", "white")
+        .style("stroke-width", "2px")
+        .style("opacity", 1)
+    
+    // remove the group that is not present anymore
+    u
+        .exit()
+        .remove();
+}
+
+// Initialize the plot with the first dataset
+update(data1)
+
+
+// Smoking Variables
+var smokeselectiondropdon = document.getElementById("smokeSelected");
+smokeselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgsmoke = d3.select("#Smoke-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgsmoke.append("circle")
+    .attr("id", "smoker")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 120)
+    .attr("fill", "#90a7a7")
+svgsmoke.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Smoker")
+
+
+svgsmoke.append("circle")
+    .attr("id", "non-smoker")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#e65c5c")
+svgsmoke.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Non Smoker")
+
+var Tooltip_smoke = d3.select("#Smoke-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#smoker")
+    .on("mouseover",event=>{
+        Tooltip_smoke
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_smoke
+            .html("Smokers are 1.35 times more likey to get heart disease <br> comapred to a non smoker, given everything else the same")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_smoke
+            .style("opacity", 0)
+    })
+
+d3.select("#non-smoker")
+    .on("mouseover",event=>{
+        Tooltip_smoke
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_smoke
+            .html("Non smokers are less likey to get heart disease <br> hover over the smoker circle to see by how much.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_smoke
+            .style("opacity", 0)
+    })
+
+
+
+// Stroke Variables
+var strokeselectiondropdon = document.getElementById("strokeSelected");
+strokeselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgstroke = d3.select("#Stroke-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgstroke.append("circle")
+    .attr("id", "no-stroke")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#800000")
+svgstroke.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("No Stroke")
+
+
+svgstroke.append("circle")
+    .attr("id", "stroke")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 173)
+    .attr("fill", "#333300")
+svgstroke.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Stroke")
+
+var Tooltip_stroke = d3.select("#Stroke-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#stroke")
+    .on("mouseover",event=>{
+        Tooltip_stroke
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_stroke
+            .html("People who have had a stroke are over twice as likey to get <br> heart disease compared to a person who has not had a stroke. <br> Given all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_stroke
+            .style("opacity", 0)
+    })
+
+d3.select("#no-stroke")
+    .on("mouseover",event=>{
+        Tooltip_stroke
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_stroke
+            .html("People who have not had a stroke are far less likey to get heart disease. <br> Hover over the stroke circle to see the comparison. ")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_stroke
+            .style("opacity", 0)
+    })
+
+//pie chart for stroke if i need to add it.
+
+// Diabetes Variable
+var sugarselectiondropdon = document.getElementById("sugarSelected");
+sugarselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgsugar = d3.select("#Sugar-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgsugar.append("circle")
+    .attr("id", "normal")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#6600ff")
+svgsugar.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Normal")
+
+
+svgsugar.append("circle")
+    .attr("id", "sugar")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 173)
+    .attr("fill", "#00ffff")
+svgsugar.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Diabetic")
+
+var Tooltip_sugar = d3.select("#Sugar-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#sugar")
+    .on("mouseover",event=>{
+        Tooltip_sugar
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_sugar
+            .html("People who have diabetes are over 1.50 times more likey to get <br> heart disease compared to a non-diabetic person.<br> Given all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_sugar
+            .style("opacity", 0)
+    })
+
+d3.select("#normal")
+    .on("mouseover",event=>{
+        Tooltip_sugar
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_sugar
+            .html("Non-diabetics are less likey to get heart disease. <br> Hover over the stroke circle to see the comparison.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_sugar
+            .style("opacity", 0)
+    })
+
+
+    
+// Asthma Variable
+var asthmaselectiondropdon = document.getElementById("asthmaSelected");
+asthmaselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgasthma = d3.select("#Asthma-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgasthma.append("circle")
+    .attr("id", "no-asthma")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#80dfff")
+svgasthma.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Normal")
+
+
+svgasthma.append("circle")
+    .attr("id", "asthma")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 115)
+    .attr("fill", "#00cc44")
+svgasthma.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Asthma")
+
+var Tooltip_asthma = d3.select("#Asthma-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#asthma")
+    .on("mouseover",event=>{
+        Tooltip_asthma 
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_asthma 
+            .html("People with asthma are 1.3 times more likey to get <br> heart disease compared to a non-asthmatic person.<br> Given all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_asthma 
+            .style("opacity", 0)
+    })
+
+d3.select("#no-asthma")
+    .on("mouseover",event=>{
+        Tooltip_asthma 
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_asthma 
+            .html("Non-asthmatic people are less likey to get <br> heart disease compared to asthmatic people.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_asthma 
+            .style("opacity", 0)
+    })
+
+
+
+// Kidney Disease Variable
+var kdselectiondropdon = document.getElementById("kdSelected");
+kdselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgkd = d3.select("#KD-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgkd.append("circle")
+    .attr("id", "no-kd")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#d40826")
+svgkd.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("No Kideny Disease")
+
+
+svgkd.append("circle")
+    .attr("id", "kd")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 140)
+    .attr("fill", "#5c0528")
+svgkd.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Kidney Disease")
+
+var Tooltip_kd = d3.select("#KD-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#kd")
+    .on("mouseover",event=>{
+        Tooltip_kd
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_kd 
+            .html("People with kidney disease are 1.62 times more likey to get <br> heart disease compared to people without.<br> Given all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_kd 
+            .style("opacity", 0)
+    })
+
+d3.select("#no-kd")
+    .on("mouseover",event=>{
+        Tooltip_kd
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_kd
+            .html("People without kideny disease are less likey to get <br> heart disease compared to people with. <br> Given that all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_kd 
+            .style("opacity", 0)
+    })
+
+// Difficulty Walking Variable
+var dwselectiondropdon = document.getElementById("dwSelected");
+dwselectiondropdon.addEventListener("change",reacttoDropdownChange);
+
+var svgdw = d3.select("#DW-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 400)
+
+// Append a circle
+svgdw.append("circle")
+    .attr("id", "no-dw")
+    .attr("cx", 200)
+    .attr("cy", 200)
+    .attr("r", 100)
+    .attr("fill", "#df9fdf")
+svgdw.append("text")
+    .attr("x",300)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("No Difficulty Walking")
+
+
+svgdw.append("circle")
+    .attr("id", "dw")
+    .attr("cx", 750)
+    .attr("cy", 200)
+    .attr("r", 115)
+    .attr("fill", "#ff0066")
+svgdw.append("text")
+    .attr("x",520)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Difficulty Walking")
+
+var Tooltip_dw = d3.select("#DW-D3graph")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+d3.select("#dw")
+    .on("mouseover",event=>{
+        Tooltip_dw
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_dw 
+            .html("People with difficulty walking are 1.36 times more likey to get <br> heart disease compared to people without.<br> Given all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_dw
+            .style("opacity", 0)
+    })
+
+d3.select("#no-dw")
+    .on("mouseover",event=>{
+        Tooltip_dw
+            .style("opacity", 1)
+    })
+    .on("mousemove", event=>{
+        Tooltip_dw
+            .html("People without difficulty walking are less likey to get <br> heart disease compared to people with. <br> Given that all else is equal.")
+    } )
+    .on("mouseleave", event=>{
+        Tooltip_dw 
+            .style("opacity", 0)
+    })
+
+// Sleep Time Variable
+var svgsleep = d3.select("#Sleep-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 250)
+
+svgsleep.append("rect")
+    .attr("id", "hrone")
+    .attr('x', 70)
+    .attr('y', 120)
+    .attr('width', 40)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#69a3b2');
+svgsleep.append("text")
+    .attr("x",25)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Sleeping 1hr more")
+
+svgsleep.append("rect")
+    .attr("id", "hrtwo")
+    .attr('x', 240)
+    .attr('y', 120)
+    .attr('width', 80)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#69a3b2');
+svgsleep.append("text")
+    .attr("x",220)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Sleeping 2hrs more")
+
+svgsleep.append("rect")
+    .attr("id", "hrthree")
+    .attr('x', 470)
+    .attr('y', 120)
+    .attr('width', 120)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#69a3b2');
+svgsleep.append("text")
+    .attr("x",470)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("Sleeping 3hrs more")
+
+var Tooltip_sleep = d3.select("#Sleep-D3graph")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+  
+d3.select("#hrone")
+      .on("mouseover",event=>{
+          Tooltip_sleep
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+          Tooltip_sleep 
+              .html("1 more hour of sleep decreases the risk of heart disease by 3.58%")
+      } )
+      .on("mouseleave", event=>{
+          Tooltip_sleep
+              .style("opacity", 0)
+      })
+
+ d3.select("#hrtwo")
+      .on("mouseover",event=>{
+          Tooltip_sleep
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+          Tooltip_sleep 
+              .html("2hrs of extra decreases the risk of heart disease by 7.16%")
+      } )
+      .on("mouseleave", event=>{
+          Tooltip_sleep
+              .style("opacity", 0)
+      })
+
+d3.select("#hrthree")
+      .on("mouseover",event=>{
+          Tooltip_sleep
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+          Tooltip_sleep 
+              .html("3hrs of extra decreases the risk of heart disease by 10.74%")
+      } )
+      .on("mouseleave", event=>{
+          Tooltip_sleep
+              .style("opacity", 0)
+      })
+
+// Age Function    
+function cal(x){
+    if(x>1){
+        state = x+ " " + "times more likey to get heart disease when comapred to a person who is";
+    }
+    if(x==1){
+        state = "just as likey to get heart disease when comapred to a person who is"
+    }
+    if(x<1){
+        state = (1/x) + " " + "times less likey to get heart disease when comapred to a person who is";
+    }
+    return state;
+}
+
+function agecompare(){
+    var a = document.getElementById("ageA");
+    var a_value = a.value;
+    var a_text = a.options[a.selectedIndex].text;
+    var b = document.getElementById("ageB");
+    var b_value = b.value;
+    var b_text = b.options[b.selectedIndex].text;
+    X = ((Math.exp(b_value))/(Math.exp(a_value)));
+    x = X.toFixed(5);
+    state = cal(x);
+    if(isNaN(x) == true){     
+        document.getElementById("ageStatement").innerHTML = "Please select an age category or categories to compare.";
+    }
+    else{
+        document.getElementById("ageStatement").innerHTML = "A person who is"+" "+ b_text +" "+"years old is"+ " "+ state +" "+ a_text +" "+ "years old.";
+    }
+}
+
+// Race Function 
+function racecompare(){
+    var a = document.getElementById("raceA");
+    var a_value = a.value;
+    var a_text = a.options[a.selectedIndex].text;
+    var b = document.getElementById("raceB");
+    var b_value = b.value;
+    var b_text = b.options[b.selectedIndex].text;
+    X = ((Math.exp(b_value))/(Math.exp(a_value)));
+    x = X.toFixed(5);
+    state = cal(x);
+    if(isNaN(x) == true){     
+        document.getElementById("raceStatement").innerHTML = "Please select a race or races to compare.";
+    }
+    else{
+        document.getElementById("raceStatement").innerHTML = "A person who is"+" "+ b_text +" "+ "is"+ " "+ state +" "+ a_text;
+    }
+} 
+// General Health Function 
+function healthcompare(){
+    var a = document.getElementById("healthA");
+    var a_value = a.value;
+    var a_text = a.options[a.selectedIndex].text;
+    var b = document.getElementById("healthB");
+    var b_value = b.value;
+    var b_text = b.options[b.selectedIndex].text;
+    X = ((Math.exp(b_value))/(Math.exp(a_value)));
+    x = X.toFixed(5);
+    state = cal(x);
+    if(isNaN(x) == true){     
+        document.getElementById("healthStatement").innerHTML = "Please select a health status or statuses to compare.";
+    }
+    else{
+        document.getElementById("healthStatement").innerHTML = "A person who has"+" "+ b_text +" "+"general health is"+ " "+ state +" "+ "in " +a_text+" general health";
+    }
+} 
+// Mental Health Variable
+// Sleep Time Variable
+var svgmental = d3.select("#Mental-D3graph")
+  .append("svg")
+    .attr("width", 1000)
+    .attr("height", 250)
+
+svgmental.append("rect")
+    .attr("id", "oneday")
+    .attr('x', 70)
+    .attr('y', 120)
+    .attr('width', 40)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#ff66b3');
+svgmental.append("text")
+    .attr("x",25)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("1 more bad day")
+
+svgmental.append("rect")
+    .attr("id", "twoday")
+    .attr('x', 240)
+    .attr('y', 120)
+    .attr('width', 80)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#ff66b3');
+svgmental.append("text")
+    .attr("x",220)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("2 more bad days")
+
+svgmental.append("rect")
+    .attr("id", "threeday")
+    .attr('x', 470)
+    .attr('y', 120)
+    .attr('width', 120)
+    .attr('height', 40)
+    .attr('stroke', 'black')
+    .attr('fill', '#ff66b3');
+svgmental.append("text")
+    .attr("x",470)
+    .attr("y", 100)
+    .attr("dy", ".35em")
+    .text("3 more bad days")
+
+var Tooltip_mental = d3.select("#Mental-D3graph")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+  
+d3.select("#oneday")
+      .on("mouseover",event=>{
+          Tooltip_mental
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+          Tooltip_mental
+              .html("1 more day of bad mental increases the risk of heart disease by 0.56%")
+      } )
+      .on("mouseleave", event=>{
+          Tooltip_mental
+              .style("opacity", 0)
+      })
+
+ d3.select("#twoday")
+      .on("mouseover",event=>{
+            Tooltip_mental
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+          Tooltip_mental 
+              .html("2 more days of bad mental increases the risk of heart disease by 1.21%")
+      } )
+      .on("mouseleave", event=>{
+            Tooltip_mental
+              .style("opacity", 0)
+      })
+
+d3.select("#threeday")
+      .on("mouseover",event=>{
+            Tooltip_mental
+              .style("opacity", 1)
+      })
+      .on("mousemove", event=>{
+            Tooltip_mental 
+              .html("3 more days of bad mental increases the risk of heart disease by 1.68%")
+      } )
+      .on("mouseleave", event=>{
+            Tooltip_mental
+              .style("opacity", 0)
+      })
+
+// Prediction Function   
+function prediction(){
+    var intercept = -6.073363689;
+    //smokeSelected
+    smoking = document.getElementById("smokeSelected");
+    smoking_val = smoking.value;
+    smoking_text = smoking.options[smoking.selectedIndex].text;
+    //drinkSelected
+    alcohol = document.getElementById("drinkSelected");
+    alcohol_val = alcohol.value;
+    alcohol_text = alcohol.options[alcohol.selectedIndex].text;
+    //strokeSelected
+    stroke = document.getElementById("strokeSelected");
+    stroke_val = stroke.value;
+    stroke_text = stroke.options[stroke.selectedIndex].text;
+    //sugarSelected
+    diabetes = document.getElementById("sugarSelected");
+    diabetes_val = diabetes.value;
+    diabetes_text = diabetes.options[diabetes.selectedIndex].text;
+    //asthmaSelected
+    asthma = document.getElementById("asthmaSelected");
+    asthma_val = asthma.value;
+    asthma_text = asthma.options[asthma.selectedIndex].text;
+    //kdSelected
+    kidneydisease = document.getElementById("kdSelected");
+    kidneydisease_val = kidneydisease.value;
+    kidneydisease_text = kidneydisease.options[kidneydisease.selectedIndex].text;
+    //dwSelected
+    diffwalking = document.getElementById("dwSelected");
+    diffwalking_val = diffwalking.value;
+    diffwalking_text = diffwalking.options[diffwalking.selectedIndex].text;
+    //sexSelected
+    sex = document.getElementById("sexSelected");
+    sex_val = sex.value;
+    sex_text = sex.options[sex.selectedIndex].text;
+    //health
+    genhealth = document.getElementById("health");
+    genhealth_val = genhealth.value;
+    genhealth_text = genhealth.options[genhealth.selectedIndex].text;
+    //race
+    race = document.getElementById("race");
+    race_val = race.value;
+    race_text = race.options[race.selectedIndex].text;
+    //age
+    agecat = document.getElementById("age");
+    agecat_val = agecat.value;
+    agecat_text = agecat.options[agecat.selectedIndex].text;
+    //sleeptime
+    sleep = document.getElementById("sleeptime");
+    sleep_val = sleep.value;
+    // mental
+    mental = document.getElementById("mental");
+    mental_val = mental.value;
+    var selections =  "Your selections are: <br> Sex:"+" "+sex_text +"<br> Smoking:"+" "+smoking_text+"<br> Heavy Drinker:"+" "+alcohol_text +"<br> Stroke:"+" "+stroke_text+"<br> Diabetic:"+" "+diabetes_text + "<br> Asthma:"+" "+asthma_text+"<br> Diffculty Walking:"+" "+diffwalking_text+"<br> Age Category:"+" "+agecat_text+"<br> Race:"+" "+race_text+"<br> General Health:"+" "+genhealth_text +"<br> Kidney Disease:"+" "+kidneydisease_text +"<br> Hours Sleeping:"+" "+sleep_val+ "<br> Bad Mental Health Days:"+" "+mental_val;
+
+    var t1 = "";
+    var t2 = "";
+    var t3 = "";
+    var t4 = "";
+    var t5 = "";
+    var t6= "";
+    var t7 = "";
+    var t8 = "";
+    var t9 = "";
+    var t10 = "";
+    var t11 = "";
+    var t12 = ""; 
+    var t13 = ""; 
+    var t14 = ""; 
+    var t15 = ""; 
+    var warning = "";
+    var statement = "";
+    var formula = parseFloat(intercept) + parseFloat(smoking_val) + parseFloat(alcohol_val)+ parseFloat(stroke_val)+ parseFloat(diffwalking_val)+ parseFloat(sex_val)+ parseFloat(agecat_val)+parseFloat(diabetes_val)+ parseFloat(genhealth_val)+parseFloat((-0.03603*parseFloat(sleep_val)))+ parseFloat(asthma_val)+parseFloat(kidneydisease_val)+parseFloat(race_val) +parseFloat((-0.005543314*parseFloat(mental_val)));
+   
+    if(sex_text=="Select Gender"){ //10
+        t10 = "You have not selected your gender." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(smoking_text=="Smoker?"){ // 1
+        t1= "You have not selected your smoking status." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(alcohol_text=="Heavy Drinker?"){ //2
+        t2 = "You have not selected your drinking status." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(stroke_text=="Stroke?"){ //3
+        t3 = "You have not selected your stroke status." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(diabetes_text=="Diabetic?"){ //4
+        t4 = "You have not selected whether you are diabetic or not." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(asthma_text=="Asthma?"){ //5
+        t5 = "You have not selected whether you are asthmatic or not."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(diffwalking_text=="Difficulty Walking?"){ //6
+        t6 = "You have not selected whether you are diabetic or not." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(agecat_text=="Please select your age."){ //7 
+        t7 = "You have not selected your age category."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(race_text=="Please select your race."){ //8
+        t8 = "You have not selected your race." + "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(kidneydisease_text=="Kidney Disease?"){ //9 
+        t9 = "You have not selected your kidney diesease status."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(genhealth_text=="Your General Health"){ //11
+        t11 = "You have not selected your general health status."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(isNaN(sleep_val)==true){ //12
+        t12 = "You have not inputted a number for sleeping hours."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(sleep_val<0){ //13
+        t13 = "You have not inputted a negative number sleeping hours, please input an non negative number."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(isNaN(mental_val)==true){ //14
+        t14 = "You have not inputted a number for number of bad mental health days."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(mental_val<0){ //15
+        t15 = "You have not inputted a negative number for number of bad mental health days, please input an non negative number."+ "<br>";
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    if(isNaN(formula)==true){
+        warning = "<br> <br> <br> WARNING <br>";
+    }
+    else{
+        p = (Math.exp(formula))/(1+(Math.exp(formula)));
+        statement =" <br> Your probabilty of heart disease based on your selections above is " + (p*100).toFixed(3) + "%.";
+    }
+    texts = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15;
+    document.getElementById("pred").innerHTML = selections +warning + texts + statement;;
+}
+</script>
+</body>
+</html>
